@@ -1,0 +1,20 @@
+# ===== Dependencies =====
+node_modules/
+
+# ===== Environment Variables =====
+.env
+server/.env
+client/.env
+
+# ===== Build Output =====
+dist/
+build/
+
+# ===== Logs =====
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
