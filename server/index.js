@@ -4,7 +4,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const PORT = 5050; // Changed to 5050 to avoid conflicts
+const PORT = process.env.PORT || 5050; // Changed to 5050 to avoid conflicts
 
 app.use(cors({
     origin: '*',
