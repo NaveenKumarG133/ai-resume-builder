@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'https://ai-resume-builder-backend-hzu3.onrender.com',
+    baseURL: 'https://ai-resume-builder-backend-hzu3.onrender.com/api',
 });
 
 export const fetchResumes = (userId) => API.get(`/resumes?userId=${userId}`);
