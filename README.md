@@ -51,4 +51,4 @@ GEMINI_API_KEY=your_gemini_api_key
 *(Add your stunning screenshots here or run the app to see the magic!)*
 
 ---
-Built with ❤️ by Antigravity AI
+
